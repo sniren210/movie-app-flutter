@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  errors:
+    unused_import: error
+
+  exclude:
+    - lib/l10n/**
+    - lib/**.g.dart
+    - bin/**.dart
+    - lib/localizations/**
+    - lib/xetia_core_library.config.dart
